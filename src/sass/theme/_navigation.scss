@@ -1,0 +1,13 @@
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.main-navigation {
+  background: $color__dark-alt;
+
+  li {
+    padding: 15px;
+  }
+}
