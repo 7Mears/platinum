@@ -131,7 +131,7 @@ function platinum_scripts() {
 
 	wp_enqueue_script( 'platinum-javascript', get_template_directory_uri() . '/js/script.min.js', array('jquery'), '20130115', true );
 
-	wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Varela+Round|Fjalla+One');
+	wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Open+Sans|Fjalla+One');
 	wp_enqueue_style( 'googleFonts');
 
 }

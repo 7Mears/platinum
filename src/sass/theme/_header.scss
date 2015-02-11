@@ -1,0 +1,43 @@
+.fixed {
+  background: $color__dark;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.main-navigation {
+  background: $color__dark;
+
+  li {
+    padding: 15px;
+  }
+}
+
+.site-branding {
+  float: left;
+
+  h1 {
+    font-size: 42px;
+  }
+
+  h3 {
+    margin-top: -39px;
+  }
+}
+
+.contact-info {
+  background: $color__dark-alt;
+  float: right;
+  padding: 25px;
+  position: absolute;
+  right: 0;
+  top: 25px;
+  border-radius: $radius;
+  z-index: 2;
+
+  p {
+    margin: 0;
+  }
+}

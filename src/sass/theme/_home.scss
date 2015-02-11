@@ -1,0 +1,47 @@
+.home-hero {
+  background: url('http://localhost/platinum/wp-content/uploads/2015/02/home-top.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 200px 0;
+
+  p {
+    width: 800px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.6);
+    padding: 50px;
+    border-radius: $radius;
+  }
+}
+
+.home-content {
+  h1 {
+    text-align: center;
+    padding-top: 50px;
+  }
+}
+.card {
+  background: $color__light;
+  color: $color__dark-alt;
+  width: 30.3333%;
+  margin: 1.5%;
+  float: left;
+  padding: 50px;
+  border-radius: $radius;
+  position: relative;
+  text-align: center;
+
+  h2 {
+    color: $color__dark;
+    margin: 0;
+  }
+
+.card-button {
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+}
+  button {
+    position: relative;
+    left: -50%;
+  }
+}

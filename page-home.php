@@ -22,12 +22,13 @@ get_header(); ?>
     <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
   </nav><!-- #site-navigation -->
 
-  <?php if ( is_active_sidebar( 'home-content' ) ) : ?>
-  <section id="home-content" class="home-content">
-    <?php dynamic_sidebar( 'home-content' ); ?>
-  </section>
-  <!-- /home-content -->
-  <?php endif; ?>
-
+  <div class="wrapper">
+    <?php if ( is_active_sidebar( 'home-content' ) ) : ?>
+    <section id="home-content" class="home-content">
+      <?php dynamic_sidebar( 'home-content' ); ?>
+    </section>
+    <!-- /home-content -->
+    <?php endif; ?>
+  </div>
 </main><!-- /main -->
 <?php get_footer(); ?>

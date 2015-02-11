@@ -23,10 +23,16 @@
 
 		<div class="site-branding">
 			<h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">Platinum</a></h1>
-			<h4>Paint and Body</h4>
+			<h3>Paint and Body Ltd.</h3>
 		</div><!-- .site-branding -->
 
-		<?php if ( is_front_page()  ) {} else { ?>
+		<div class="contact-info">
+			<p>(306) 249-5670</p>
+			<p>125 105 Street East</p>
+			<p>Saskatoon, SK</p>
+		</div><!-- .contact-info -->
+
+		<?php if ( is_front_page() ) {} else { ?>
 		<nav id="site-navigation" class="main-navigation" role="navigation">
 			<button class="menu-toggle" aria-controls="menu" aria-expanded="false"><?php _e( 'Primary Menu', 'platinum' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
