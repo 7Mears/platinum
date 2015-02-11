@@ -1,18 +1,8 @@
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
 
 	ul {
 		list-style: none;
 		padding-left: 0;
-
-		margin: 0 auto;
-		width: 400px;
-		display: block;
-		position: relative;
-		z-index: 1;
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);

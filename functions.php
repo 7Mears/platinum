@@ -134,6 +134,9 @@ function platinum_scripts() {
 	wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Open+Sans|Fjalla+One');
 	wp_enqueue_style( 'googleFonts');
 
+	wp_enqueue_style( 'font-awesome', '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css', array(), '4.0.3' );
+
+
 }
 add_action( 'wp_enqueue_scripts', 'platinum_scripts' );
 

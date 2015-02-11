@@ -1,22 +1,15 @@
-.fixed {
-  background: $color__dark;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2;
-}
-
 .main-navigation {
   background: $color__dark;
 
   li {
-    padding: 15px;
+    padding: 10px;
+    margin-top: 15px;
   }
 }
 
 .site-branding {
   float: left;
+  margin-right: 25px;
 
   h1 {
     font-size: 42px;
@@ -33,9 +26,10 @@
   padding: 25px;
   position: absolute;
   right: 0;
-  top: 25px;
-  border-radius: $radius;
+  top: 0;
+  border-radius: 0 0 $radius $radius;
   z-index: 2;
+  box-shadow: 0 3px 20px rgba(0,0,0,0.6);
 
   p {
     margin: 0;

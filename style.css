@@ -346,41 +346,31 @@ a {
 /*--------------------------------------------------------------
 5.2 Menus
 --------------------------------------------------------------*/
-.main-navigation {
-  clear: both;
-  display: block;
-  float: left;
-  width: 100%; }
-  .main-navigation ul {
-    list-style: none;
-    padding-left: 0;
-    margin: 0 auto;
-    width: 400px;
-    display: block;
-    position: relative;
-    z-index: 1; }
-    .main-navigation ul ul {
-      box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-      float: left;
-      position: absolute;
-      top: 1.5em;
-      left: -999em;
-      z-index: 99999; }
-      .main-navigation ul ul ul {
-        left: -999em;
-        top: 0; }
-      .main-navigation ul ul li:hover > ul {
-        left: 100%; }
-      .main-navigation ul ul a {
-        width: 200px; }
-    .main-navigation ul li:hover > ul {
-      left: auto; }
-  .main-navigation li {
+.main-navigation ul {
+  list-style: none;
+  padding-left: 0; }
+  .main-navigation ul ul {
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
     float: left;
-    position: relative; }
-  .main-navigation a {
-    display: block;
-    text-decoration: none; }
+    position: absolute;
+    top: 1.5em;
+    left: -999em;
+    z-index: 99999; }
+    .main-navigation ul ul ul {
+      left: -999em;
+      top: 0; }
+    .main-navigation ul ul li:hover > ul {
+      left: 100%; }
+    .main-navigation ul ul a {
+      width: 200px; }
+  .main-navigation ul li:hover > ul {
+    left: auto; }
+.main-navigation li {
+  float: left;
+  position: relative; }
+.main-navigation a {
+  display: block;
+  text-decoration: none; }
 
 /* Small menu. */
 .menu-toggle {
@@ -606,21 +596,15 @@ embed, iframe, object {
   margin: 0 auto;
   position: relative; }
 
-.fixed {
-  background: #263238;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 2; }
-
 .main-navigation {
   background: #263238; }
   .main-navigation li {
-    padding: 15px; }
+    padding: 10px;
+    margin-top: 15px; }
 
 .site-branding {
-  float: left; }
+  float: left;
+  margin-right: 25px; }
   .site-branding h1 {
     font-size: 42px; }
   .site-branding h3 {
@@ -632,9 +616,10 @@ embed, iframe, object {
   padding: 25px;
   position: absolute;
   right: 0;
-  top: 25px;
-  border-radius: 3px;
-  z-index: 2; }
+  top: 0;
+  border-radius: 0 0 3px 3px;
+  z-index: 2;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6); }
   .contact-info p {
     margin: 0; }
 
@@ -642,7 +627,8 @@ embed, iframe, object {
   background: url('http://localhost/platinum/wp-content/uploads/2015/02/home-top.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px 0; }
+  padding: 300px 0;
+  position: relative; }
   .home-hero p {
     width: 800px;
     margin: 0 auto;
@@ -652,25 +638,26 @@ embed, iframe, object {
 
 .home-content h1 {
   text-align: center;
-  padding-top: 50px; }
+  padding-top: 50px;
+  margin: 0; }
+.home-content p {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 50px; }
 
 .card {
-  background: #ECEFF1;
-  color: #607D8B;
-  width: 30.3333%;
-  margin: 1.5%;
+  width: 22%;
+  margin: 1%;
   float: left;
-  padding: 50px;
   border-radius: 3px;
   position: relative;
   text-align: center; }
-  .card h2 {
-    color: #263238;
-    margin: 0; }
-  .card .card-button {
-    position: absolute;
-    bottom: -25px;
-    left: 50%; }
-  .card button {
-    position: relative;
-    left: -50%; }
+
+.home-hours {
+  background: rgba(38, 50, 56, 0.8);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0; }
