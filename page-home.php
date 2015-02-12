@@ -36,14 +36,14 @@ get_header(); ?>
       </div>
 
       <div class="card">
-        <img src="/platinum/wp-content/themes/platinum/src/img/wash.svg">
-        <h2>Carwash</h2>
+        <img src="/platinum/wp-content/themes/platinum/src/img/tools.svg">
+        <h2>Glass Installation</h2>
         <p>Proactively productize pandemic partnerships before future-proof platforms. Compellingly monetize.</p>
       </div>
 
       <div class="card">
-        <img src="/platinum/wp-content/themes/platinum/src/img/tools.svg">
-        <h2>Glass Installation</h2>
+        <img src="/platinum/wp-content/themes/platinum/src/img/wash.svg">
+        <h2>Carwash</h2>
         <p>Proactively productize pandemic partnerships before future-proof platforms. Compellingly monetize.</p>
       </div>
 

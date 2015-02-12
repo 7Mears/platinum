@@ -673,6 +673,7 @@ embed, iframe, object {
   margin: 1%;
   display: inline-block; }
   .card img {
+    height: 200px;
     padding: 25px; }
 
 .home-about {
