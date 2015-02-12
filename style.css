@@ -296,17 +296,20 @@ table {
 /*--------------------------------------------------------------
 4.0 Forms
 --------------------------------------------------------------*/
-button, input[type="button"], input[type="reset"], input[type="submit"] {
-  border: 1px solid;
+.button, button, input[type="button"], input[type="reset"], input[type="submit"] {
+  border: 2px solid;
   border-color: #FFD600;
   border-radius: 3px;
-  background: #FFD600;
-  color: #263238;
+  color: #FFD600;
   line-height: 1;
-  padding: 15px 25px; }
+  padding: 15px 25px;
+  text-decoration: none;
+  transition: 0.4s ease; }
 
-button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
-  border-color: #01579B; }
+.button:hover, button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover {
+  border-color: #01579B;
+  background: #01579B;
+  color: #ECEFF1; }
 
 button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus, button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
   border-color: #01579B; }
@@ -342,6 +345,13 @@ a {
     outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
+
+.main-navigation a {
+  line-height: 25px; }
+.main-navigation a:hover {
+  color: #ECEFF1;
+  border-bottom: 3px solid #FFD600;
+  transition: 0.4s ease; }
 
 /*--------------------------------------------------------------
 5.2 Menus
@@ -600,7 +610,7 @@ embed, iframe, object {
   background: #263238; }
   .main-navigation li {
     padding: 10px;
-    margin-top: 15px; }
+    margin-top: 20px; }
 
 .site-branding {
   float: left;
@@ -623,6 +633,16 @@ embed, iframe, object {
   .contact-info p {
     margin: 0; }
 
+.home-hours {
+  background: rgba(38, 50, 56, 0.8);
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none; }
+
 .home-hero {
   background: url('http://localhost/platinum/wp-content/uploads/2015/02/home-top.jpg');
   background-repeat: no-repeat;
@@ -636,28 +656,26 @@ embed, iframe, object {
     padding: 50px;
     border-radius: 3px; }
 
-.home-content h1 {
+.home-services {
   text-align: center;
-  padding-top: 50px;
-  margin: 0; }
-.home-content p {
-  text-align: center;
-  margin: 0;
-  padding-bottom: 50px; }
+  margin-bottom: 75px; }
+  .home-services h1 {
+    padding-top: 50px;
+    margin: 0; }
+  .home-services h2 {
+    margin-top: 0; }
+  .home-services p {
+    margin: 0;
+    padding-bottom: 50px; }
 
 .card {
   width: 22%;
   margin: 1%;
-  float: left;
-  border-radius: 3px;
-  position: relative;
-  text-align: center; }
+  display: inline-block; }
+  .card img {
+    padding: 25px; }
 
-.home-hours {
-  background: rgba(38, 50, 56, 0.8);
-  padding: 10px;
-  text-align: center;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0; }
+.home-about {
+  background: #607D8B;
+  padding: 50px 0 75px 0;
+  text-align: center; }

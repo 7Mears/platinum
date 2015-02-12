@@ -17,3 +17,14 @@ a {
 		outline: 0;
 	}
 }
+
+.main-navigation {
+	a {
+		line-height: 25px;
+	}
+	a:hover {
+		color: $color__light;
+		border-bottom: 3px solid $color__primary;
+		transition: 0.4s ease;
+	}
+}

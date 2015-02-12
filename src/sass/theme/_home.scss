@@ -14,33 +14,37 @@
   }
 }
 
-.home-content {
+.home-services {
+  text-align: center;
+  margin-bottom: 75px;
+
   h1 {
-    text-align: center;
     padding-top: 50px;
     margin: 0;
   }
+
+  h2 {
+    margin-top: 0;
+  }
+
   p {
-    text-align: center;
     margin: 0;
     padding-bottom: 50px;
   }
 }
+
 .card {
   width: 22%;
   margin: 1%;
-  float: left;
-  border-radius: $radius;
-  position: relative;
-  text-align: center;
+  display: inline-block;
+
+  img {
+    padding: 25px;
+  }
 }
 
-.home-hours {
-  background: rgba($color__dark, 0.8);
-  padding: 10px;
+.home-about {
+  background: $color__dark-alt;
+  padding: 50px 0 75px 0;
   text-align: center;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
 }

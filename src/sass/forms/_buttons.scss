@@ -1,21 +1,26 @@
+.button,
 button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 1px solid;
+	border: 2px solid;
 	border-color: $color__primary;
 	border-radius: $radius;
-	background: $color__primary;
-	color: $color__dark;
+	color: $color__primary;
 	line-height: 1;
 	padding: 15px 25px;
+	text-decoration: none;
+	transition: 0.4s ease;
 }
 
+.button:hover,
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
 	border-color: $color__accent;
+	background: $color__accent;
+	color: $color__light;
 }
 
 button:focus,
