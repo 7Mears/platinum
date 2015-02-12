@@ -24,25 +24,25 @@ get_header(); ?>
       <p>SGI accredited auto body shop serving Saskatoon and surrounding areas.</p>
 
       <div class="card">
-        <img src="/platinum/wp-content/themes/platinum/src/img/training.svg">
+        <img src="/platinum/wp-content/themes/platinum/src/img/vehicle.svg">
         <h2>Collision Repair</h2>
         <p>Proactively productize pandemic partnerships before future-proof platforms. Compellingly monetize.</p>
       </div>
 
       <div class="card">
-        <img src="/platinum/wp-content/themes/platinum/src/img/customizable.svg">
+        <img src="/platinum/wp-content/themes/platinum/src/img/paint.svg">
         <h2>Paint and Refinishing</h2>
         <p>Proactively productize pandemic partnerships before future-proof platforms. Compellingly monetize.</p>
       </div>
 
       <div class="card">
-        <img src="/platinum/wp-content/themes/platinum/src/img/responsive.svg">
-        <h2>Paintless Dent Repair</h2>
+        <img src="/platinum/wp-content/themes/platinum/src/img/wash.svg">
+        <h2>Carwash</h2>
         <p>Proactively productize pandemic partnerships before future-proof platforms. Compellingly monetize.</p>
       </div>
 
       <div class="card">
-        <img src="/platinum/wp-content/themes/platinum/src/img/training.svg">
+        <img src="/platinum/wp-content/themes/platinum/src/img/tools.svg">
         <h2>Glass Installation</h2>
         <p>Proactively productize pandemic partnerships before future-proof platforms. Compellingly monetize.</p>
       </div>
