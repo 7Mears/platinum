@@ -1,26 +1,25 @@
-.button,
 button,
 input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-	border: 2px solid;
-	border-color: $color__primary;
+	border: 2px solid $color__dark-alt;
+	color: $color__light;
+	background: $color__dark;
+
 	border-radius: $radius;
-	color: $color__primary;
 	line-height: 1;
 	padding: 15px 25px;
 	text-decoration: none;
-	transition: 0.4s ease;
+	transition: 0.6s ease;
 }
 
-.button:hover,
 button:hover,
 input[type="button"]:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover {
-	border-color: $color__accent;
-	background: $color__accent;
+	background: $color__dark-alt;
 	color: $color__light;
+	border-color: $color__light;
 }
 
 button:focus,
@@ -31,5 +30,25 @@ button:active,
 input[type="button"]:active,
 input[type="reset"]:active,
 input[type="submit"]:active {
-	border-color: $color__accent;
+	border-color: $color__primary;
+}
+
+
+.button,
+.button:visited {
+	border: 2px solid $color__dark-alt;
+	color: $color__light;
+
+	border-radius: $radius;
+	line-height: 1;
+	padding: 15px 25px;
+	text-decoration: none;
+	transition: 0.6s ease;
+}
+
+.button:hover,
+.button:active {
+	background: $color__dark-alt;
+	color: $color__light;
+	border-color: $color__light;
 }

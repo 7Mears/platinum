@@ -1,0 +1,21 @@
+.home-about {
+  background: rgba(255,255,255,0.1);
+  padding: 75px 0 100px 0;
+  text-align: center;
+}
+
+.home-about--content {
+  width: 800px;
+  margin: 0 auto;
+}
+.card {
+  width: 22%;
+  margin: 1%;
+  float: left;
+
+  img {
+    height: 200px;
+    padding: 25px;
+  }
+
+}

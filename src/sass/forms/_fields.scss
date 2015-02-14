@@ -4,9 +4,11 @@ input[type="url"],
 input[type="password"],
 input[type="search"],
 textarea {
-	color: $color__dark-alt;
-	border: 1px solid $color__light-alt;
-	border-radius: 3px;
+	color: $color__light;
+	border: 2px solid $color__dark-alt;
+	background: $color__dark;
+	border-radius: $radius;
+	width: 100%;
 }
 
 input[type="text"]:focus,
@@ -15,7 +17,10 @@ input[type="url"]:focus,
 input[type="password"]:focus,
 input[type="search"]:focus,
 textarea:focus {
-	color: $color__dark;
+	color: $color__light;
+	border: 2px solid $color__light;
+	transition: 0.6s ease;
+	background: rgba(255,255,255,0.1);
 }
 
 input[type="text"],
@@ -23,7 +28,7 @@ input[type="email"],
 input[type="url"],
 input[type="password"],
 input[type="search"] {
-	padding: 3px;
+	padding: 5px;
 }
 
 textarea {

@@ -4,3 +4,10 @@
   margin: 0 auto;
   position: relative;
 }
+
+.bar {
+  width: 100px;
+  height: 3px;
+  margin: 10px auto;
+  border-bottom: 3px solid $color__light;
+}

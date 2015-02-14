@@ -14,13 +14,13 @@ get_header(); ?>
     <?php dynamic_sidebar( 'home-hero' ); ?>
 
     <div class="home-hours">
-      We are open weekdays from 8:00 am to 5:00 pm, closed on weekends
+      Open Monday to Friday, 7 a.m. to 5 p.m.
     </div>
   </section><!-- /home-hero -->
 
   <section class="home-services">
     <div class="wrapper">
-      <h1>Repairs and services</h1>
+      <h1>Repairs and services<div class="bar">&nbsp;</div></h1>
       <p>An SGI accredited auto body shop with the expertise to serve your needs.</p>
 
       <div class="card">
@@ -55,8 +55,10 @@ the-art, dust-free downdraft paint booths to ensure the best paint job possible,
   <section class="home-about">
     <div class="wrapper">
       <div class="home-about--content">
-        <h1>Proud to be a quality straight time shop</h1>
-        <p>We are proud to be a quality straight time shop versus a flat rate shop where technicians take short cuts on jobs to log more hours. Straight time shops provide better quality and save customers unnecessary trips back for warranty repairs.</p>
+        <h1>Serving Saskatoon and area since 1996<div class="bar">&nbsp;</div></h1>
+        <p>Owned by Alan and Cindy Manderschied since 1996, Platinum Paint and Body is proud to be a
+
+straight-time shop -- all of our staff are paid for they hours they work, no matter what.</p>
         <a class="button" href="#0">Find out more about us</a>
       </div>
     </div><!-- /wrapper -->
