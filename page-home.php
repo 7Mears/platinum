@@ -20,31 +20,32 @@ get_header(); ?>
 
   <section class="home-services">
     <div class="wrapper">
-      <h1>Repair, Paint, Services</h1>
-      <p>SGI accredited auto body shop serving Saskatoon and surrounding areas.</p>
+      <h1>Repairs and services</h1>
+      <p>An SGI accredited auto body shop with the expertise to serve your needs.</p>
 
       <div class="card">
-        <img src="/platinum/wp-content/themes/platinum/src/img/vehicle.svg">
-        <h2>Collision Repair</h2>
-        <p>Proactively productize pandemic partnerships before future-proof platforms. Compellingly monetize.</p>
+        <img src="/platinum/wp-content/themes/platinum/src/img/paint.png" alt="Painting and refinishing">
+        <h2>Painting and refinishing</h2>
+        <p>Our Standox-trained, Mercedes Certified Painters use computerized colour matching and our state-of-
+the-art, dust-free downdraft paint booths to ensure the best paint job possible, every time.</p>
       </div>
 
       <div class="card">
-        <img src="/platinum/wp-content/themes/platinum/src/img/paint.svg">
-        <h2>Paint and Refinishing</h2>
-        <p>Proactively productize pandemic partnerships before future-proof platforms. Compellingly monetize.</p>
+        <img src="/platinum/wp-content/themes/platinum/src/img/vehicle.png" alt="Collision and dent repair">
+        <h2>Collision and dent repair</h2>
+        <p>We have experts in frame straightening, and panel repair and replacement, and our paintless dent repair technician can make hail and parking lot damage disappear without painting.</p>
       </div>
 
       <div class="card">
-        <img src="/platinum/wp-content/themes/platinum/src/img/tools.svg">
-        <h2>Glass Installation</h2>
-        <p>Proactively productize pandemic partnerships before future-proof platforms. Compellingly monetize.</p>
+        <img src="/platinum/wp-content/themes/platinum/src/img/tools.png" alt="Mechanical">
+        <h2>Mechanical</h2>
+        <p>Platinum Paint and Body has five dedicated mechanical technicians with access to seven hoists. We can do any repairs, from brakes to wheel alignment, and custom exhausts to air conditioning repairs and recharging.</p>
       </div>
 
       <div class="card">
-        <img src="/platinum/wp-content/themes/platinum/src/img/wash.svg">
-        <h2>Carwash</h2>
-        <p>Proactively productize pandemic partnerships before future-proof platforms. Compellingly monetize.</p>
+        <img src="/platinum/wp-content/themes/platinum/src/img/carwash.png" alt="Glass installation">
+        <h2>Glass installation</h2>
+        <p>Whether fixing up a stone bruise while you wait, or replacing a windshield or side glass on any make or model, our dedicated glass replacement specialists will ensure the job gets done right -- insured or not.</p>
       </div>
 
       <a class="button" href="#0">See a full list of our services</a>
@@ -61,19 +62,14 @@ get_header(); ?>
     </div><!-- /wrapper -->
   </section><!-- /home-about -->
 
+  <?php if ( is_active_sidebar( 'home-contact' ) ) : ?>
   <section class="home-contact">
     <div class="wrapper">
-      <h1>Contact us</h1>
-      <ul>
-        <li>Store Hours</li>
-        <li>Monday: 7am - 5pm</li>
-        <li>Tuesday: 7am - 5pm</li>
-        <li>Wednesday: 7am - 5pm</li>
-        <li>Thursday: 7am - 5pm</li>
-        <li>Friday: 7am - 5pm</li>
-      </ul>
+      <?php dynamic_sidebar( 'home-contact' ); ?>
     </div><!-- /wrapper -->
   </section><!-- /home-contact -->
+  <?php endif; ?>
+
 
 </main><!-- /main -->
 <?php get_footer(); ?>

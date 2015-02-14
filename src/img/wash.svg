@@ -20,5 +20,53 @@
                 </g>
             </g>
         </g>
+        <g id="Group-+-Group-2" sketch:type="MSLayerGroup" transform="translate(-31.000000, -30.000000)" stroke-linecap="square" stroke="#FFFFFF">
+            <g id="Group" transform="translate(41.000000, 0.000000)" sketch:type="MSShapeGroup">
+                <path d="M1.5,9.5 L1.5,452.5" id="Line"></path>
+                <path d="M21.5,9.5 L21.5,452.5" id="Line-2"></path>
+                <path d="M41.5,11.5 L41.5,454.5" id="Line-3"></path>
+                <path d="M60.7608696,10.5 L60.7608696,453.5" id="Line-4"></path>
+                <path d="M80.0217391,9.5 L80.0217391,452.5" id="Line-5"></path>
+                <path d="M99.2826087,10.5 L99.2826087,453.5" id="Line-6"></path>
+                <path d="M141.5,9.5 L141.5,452.5" id="Line-7"></path>
+                <path d="M119.543478,9.5 L119.543478,452.5" id="Line-8"></path>
+                <path d="M160.76087,3.5 L160.76087,446.5" id="Line-9"></path>
+                <path d="M180.021739,10.5 L180.021739,453.5" id="Line-10"></path>
+                <path d="M199.282609,6.5 L199.282609,449.5" id="Line-11"></path>
+                <path d="M218.543478,6.5 L218.543478,449.5" id="Line-12"></path>
+                <path d="M240.5,3.5 L240.5,446.5" id="Line-13"></path>
+                <path d="M259.76087,2.5 L259.76087,445.5" id="Line-14"></path>
+                <path d="M279.021739,13.5 L279.021739,456.5" id="Line-15"></path>
+                <path d="M298.282609,3.5 L298.282609,446.5" id="Line-16"></path>
+                <path d="M319.543478,0.5 L319.543478,443.5" id="Line-17"></path>
+                <path d="M160.76087,9.5 L160.76087,452.5" id="Line-18"></path>
+                <path d="M338.804348,16.5 L338.804348,459.5" id="Line-19"></path>
+                <path d="M358.065217,12.5 L358.065217,455.5" id="Line-20"></path>
+                <path d="M378.326087,10.5 L378.326087,453.5" id="Line-21"></path>
+            </g>
+            <g id="Group-2" transform="translate(231.000000, 230.000000) rotate(270.000000) translate(-231.000000, -230.000000) translate(41.000000, 0.000000)" sketch:type="MSShapeGroup">
+                <path d="M1.5,9.5 L1.5,452.5" id="Line"></path>
+                <path d="M21.5,9.5 L21.5,452.5" id="Line-2"></path>
+                <path d="M41.5,11.5 L41.5,454.5" id="Line-3"></path>
+                <path d="M60.7608696,10.5 L60.7608696,453.5" id="Line-4"></path>
+                <path d="M80.0217391,9.5 L80.0217391,452.5" id="Line-5"></path>
+                <path d="M99.2826087,10.5 L99.2826087,453.5" id="Line-6"></path>
+                <path d="M141.5,9.5 L141.5,452.5" id="Line-7"></path>
+                <path d="M119.543478,9.5 L119.543478,452.5" id="Line-8"></path>
+                <path d="M160.76087,3.5 L160.76087,446.5" id="Line-9"></path>
+                <path d="M180.021739,10.5 L180.021739,453.5" id="Line-10"></path>
+                <path d="M199.282609,6.5 L199.282609,449.5" id="Line-11"></path>
+                <path d="M218.543478,6.5 L218.543478,449.5" id="Line-12"></path>
+                <path d="M240.5,3.5 L240.5,446.5" id="Line-13"></path>
+                <path d="M259.76087,2.5 L259.76087,445.5" id="Line-14"></path>
+                <path d="M279.021739,13.5 L279.021739,456.5" id="Line-15"></path>
+                <path d="M298.282609,3.5 L298.282609,446.5" id="Line-16"></path>
+                <path d="M319.543478,0.5 L319.543478,443.5" id="Line-17"></path>
+                <path d="M160.76087,9.5 L160.76087,452.5" id="Line-18"></path>
+                <path d="M338.804348,16.5 L338.804348,459.5" id="Line-19"></path>
+                <path d="M358.065217,12.5 L358.065217,455.5" id="Line-20"></path>
+                <path d="M378.326087,10.5 L378.326087,453.5" id="Line-21"></path>
+            </g>
+        </g>
     </g>
 </svg>
