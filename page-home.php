@@ -11,12 +11,14 @@ get_header(); ?>
 <main id="main" class="site-main" role="main">
 
   <section class="home-hero">
-    <?php dynamic_sidebar( 'home-hero' ); ?>
 
-    <div class="home-hours">
-      Open Monday to Friday, 7 a.m. to 5 p.m.
+    <div id="hero-gallery" class="gallery js-flickity" >
+      <div class="gallery-cell"><img src="http://localhost/platinum/wp-content/uploads/2015/02/ppb-front.jpg"></div>
+      <div class="gallery-cell"><img src="http://localhost/platinum/wp-content/uploads/2015/02/home-top.jpg"></div>
     </div>
+
   </section><!-- /home-hero -->
+
 
   <section class="home-services">
     <div class="wrapper">
