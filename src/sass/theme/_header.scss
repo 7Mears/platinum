@@ -34,4 +34,15 @@
   p {
     margin: 0;
   }
+  .fa {
+    margin-right: 10px;
+  }
+
+  a {
+    text-decoration: none;
+    color: $color__light;
+  }
+  a:hover {
+    border-bottom: 3px solid $color__primary;
+  }
 }

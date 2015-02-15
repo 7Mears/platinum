@@ -27,9 +27,9 @@
 		</div><!-- .site-branding -->
 
 		<div class="contact-info">
-			<p><i class="fa fa-phone"></i> (306) 249-5670</p>
-			<p><i class="fa fa-map-marker"></i> 125 105 Street East</p>
-			<p>Saskatoon, SK</p>
+			<p><i class="fa fa-phone"></i> <a href="#0">(306) 249-5670</a></p>
+			<p><i class="fa fa-map-marker"></i> <a href="#0">125 105 Street East</a></p>
+			<p><i class="fa fa-globe"></i> Saskatoon, SK</p>
 		</div><!-- .contact-info -->
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
