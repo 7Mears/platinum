@@ -45,4 +45,9 @@
   a:hover {
     border-bottom: 3px solid $color__primary;
   }
+
+  @media screen and (max-width: $M) {
+    width: 100%;
+    position: relative;
+  }
 }

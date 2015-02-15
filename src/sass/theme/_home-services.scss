@@ -23,6 +23,15 @@
   margin: 1%;
   float: left;
 
+  @media screen and (max-width: $L) {
+    width: 45%;
+    margin: 2.5%;
+  }
+
+  @media screen and (max-width: $M) {
+    width: 95%;
+  }
+
   img {
     height: 200px;
     padding: 25px;

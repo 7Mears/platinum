@@ -401,31 +401,6 @@ a {
   display: block;
   text-decoration: none; }
 
-/* Small menu. */
-.menu-toggle {
-  display: none; }
-
-@media screen and (max-width: 600px) {
-  .menu-toggle, .main-navigation.toggled .nav-menu {
-    display: block; }
-
-  .main-navigation ul {
-    display: none; }
- }
-
-.site-main .comment-navigation, .site-main .posts-navigation, .site-main .post-navigation {
-  margin: 0 0 1.5em;
-  overflow: hidden; }
-
-.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous {
-  float: left;
-  width: 50%; }
-
-.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next {
-  float: right;
-  text-align: right;
-  width: 50%; }
-
 /*--------------------------------------------------------------
 6.0 Accessibility
 --------------------------------------------------------------*/
@@ -754,6 +729,9 @@ embed, iframe, object {
   width: 1200px;
   margin: 0 auto;
   position: relative; }
+  @media screen and (max-width: 1200px) {
+    .site-header, .wrapper {
+      width: 100%; } }
 
 .bar {
   width: 100px;
@@ -794,12 +772,19 @@ embed, iframe, object {
     color: #ECEFF1; }
   .contact-info a:hover {
     border-bottom: 3px solid #FFD600; }
+  @media screen and (max-width: 800px) {
+    .contact-info {
+      width: 100%;
+      position: relative; } }
 
 .home-hero .gallery-cell {
   width: 100%;
   height: 600px; }
   .home-hero .gallery-cell img {
     min-width: 100%; }
+  @media screen and (max-width: 1200px) {
+    .home-hero .gallery-cell {
+      height: auto; } }
 
 .home-services {
   padding: 50px 0 100px 0;
@@ -817,6 +802,13 @@ embed, iframe, object {
   width: 23%;
   margin: 1%;
   float: left; }
+  @media screen and (max-width: 1200px) {
+    .card {
+      width: 45%;
+      margin: 2.5%; } }
+  @media screen and (max-width: 800px) {
+    .card {
+      width: 95%; } }
   .card img {
     height: 200px;
     padding: 25px; }
@@ -829,6 +821,10 @@ embed, iframe, object {
 .home-about--content {
   width: 800px;
   margin: 0 auto; }
+  @media screen and (max-width: 800px) {
+    .home-about--content {
+      width: 95%;
+      margin: 0 2.5%; } }
 
 .home-contact {
   padding: 75px 0 100px 0; }
@@ -841,6 +837,11 @@ embed, iframe, object {
   width: 48%;
   float: left;
   margin: 1%; }
+  @media screen and (max-width: 800px) {
+    .home-contact--section {
+      width: 95%;
+      margin: 0 2.5%;
+      text-align: center; } }
 
 .site-footer {
   padding-top: 50px;

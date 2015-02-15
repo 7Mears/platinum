@@ -3,6 +3,10 @@
   width: 1200px;
   margin: 0 auto;
   position: relative;
+
+  @media screen and (max-width: $L) {
+    width: 100%;
+  }
 }
 
 .bar {
