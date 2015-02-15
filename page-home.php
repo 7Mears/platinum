@@ -28,26 +28,25 @@ get_header(); ?>
       <div class="card">
         <img src="/platinum/wp-content/themes/platinum/src/img/paint.png" alt="Painting and refinishing">
         <h2>Painting and refinishing</h2>
-        <p>Our Standox-trained, Mercedes Certified Painters use computerized colour matching and our state-of-
-the-art, dust-free downdraft paint booths to ensure the best paint job possible, every time.</p>
+        <p>Our Standox-trained, Mercedes Certified Painters use computerized colour matching.</p>
       </div>
 
       <div class="card">
         <img src="/platinum/wp-content/themes/platinum/src/img/vehicle.png" alt="Collision and dent repair">
         <h2>Collision and dent repair</h2>
-        <p>We have experts in frame straightening, and panel repair and replacement, and our paintless dent repair technician can make hail and parking lot damage disappear without painting.</p>
+        <p>We have experts in frame straightening, and panel repair and replacement.</p>
       </div>
 
       <div class="card">
         <img src="/platinum/wp-content/themes/platinum/src/img/tools.png" alt="Mechanical">
         <h2>Mechanical</h2>
-        <p>Platinum Paint and Body has five dedicated mechanical technicians with access to seven hoists. We can do any repairs, from brakes to wheel alignment, and custom exhausts to air conditioning repairs and recharging.</p>
+        <p>Platinum Paint and Body has five dedicated mechanical technicians with access to seven hoists.</p>
       </div>
 
       <div class="card">
         <img src="/platinum/wp-content/themes/platinum/src/img/carwash.png" alt="Glass installation">
         <h2>Glass installation</h2>
-        <p>Whether fixing up a stone bruise while you wait, or replacing a windshield or side glass on any make or model, our dedicated glass replacement specialists will ensure the job gets done right -- insured or not.</p>
+        <p>Whether fixing up a stone bruise while you wait, or replacing a windshield or side glass.</p>
       </div>
 
       <a class="button" href="#0">See a full list of our services</a>
