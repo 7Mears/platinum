@@ -1,5 +1,6 @@
 a {
 	color: $color__primary;
+	transition: 0.4s ease;
 
 	&:visited {
 		color: $color__primary;
@@ -21,6 +22,7 @@ a {
 .main-navigation {
 	a {
 		line-height: 25px;
+		border-bottom: 3px solid $color__dark;
 	}
 	a:hover {
 		color: $color__light;

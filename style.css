@@ -355,18 +355,20 @@ textarea {
 5.1 Links
 --------------------------------------------------------------*/
 a {
-  color: #FFD600; }
+  color: #FFD600;
+  transition: 0.4s ease; }
   a:visited {
     color: #FFD600; }
   a:hover, a:focus, a:active {
-    color: #01579B; }
+    color: #BF360C; }
   a:focus {
     outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
 
 .main-navigation a {
-  line-height: 25px; }
+  line-height: 25px;
+  border-bottom: 3px solid #263238; }
 .main-navigation a:hover {
   color: #ECEFF1;
   border-bottom: 3px solid #FFD600;
@@ -762,7 +764,7 @@ embed, iframe, object {
   top: 0;
   border-radius: 0 0 3px 3px;
   z-index: 2;
-  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.6); }
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); }
   .contact-info p {
     margin: 0; }
   .contact-info .fa {
@@ -846,3 +848,9 @@ embed, iframe, object {
 .site-footer {
   padding-top: 50px;
   text-align: center; }
+
+.services-card {
+  width: 50%;
+  float: left;
+  padding-right: 50px;
+  height: 300px; }
