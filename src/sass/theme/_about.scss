@@ -16,3 +16,11 @@
   float: left;
   width: 50%;
 }
+
+.about-content,
+.about-gallery {
+  @media screen and (max-width: $M) {
+    width: 100%;
+    padding: 5%;
+  }
+}
