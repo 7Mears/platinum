@@ -3,4 +3,10 @@
   float: left;
   padding-right: 50px;
   height: 300px;
+
+  @media screen and (max-width: $M) {
+    width: 100%;
+    padding: 5%;
+    height: auto;
+  }
 }

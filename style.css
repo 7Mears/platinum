@@ -869,6 +869,11 @@ embed, iframe, object {
   float: left;
   padding-right: 50px;
   height: 300px; }
+  @media screen and (max-width: 800px) {
+    .services-card {
+      width: 100%;
+      padding: 5%;
+      height: auto; } }
 
 .about-gallery {
   width: 45%;
