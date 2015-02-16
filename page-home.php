@@ -13,8 +13,8 @@ get_header(); ?>
   <section class="home-hero">
 
     <div id="hero-gallery" class="gallery js-flickity" >
-      <div class="gallery-cell"><img src="http://localhost/platinum/wp-content/uploads/2015/02/ppb-front.jpg"></div>
-      <div class="gallery-cell"><img src="http://localhost/platinum/wp-content/uploads/2015/02/home-top.jpg"></div>
+      <div class="gallery-cell"><img src="/platinum/wp-content/themes/platinum/src/img/hero1.jpg"></div>
+      <div class="gallery-cell"><img src="/platinum/wp-content/themes/platinum/src/img/hero2.jpg"></div>
     </div>
 
   </section><!-- /home-hero -->

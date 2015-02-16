@@ -1,0 +1,15 @@
+.contact-info,
+.contact-form {
+  width: 50%;
+  float: left;
+
+  @media screen and (max-width: $M) {
+    width: 95%;
+    margin: 0 2.5%;
+    text-align: center;
+  }
+}
+
+.contact-info {
+  margin-top: 1em;
+}

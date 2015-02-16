@@ -9,7 +9,11 @@ $red: #BF360C;
 
 $color__light: $white;
 $color__light-alt: $off-white;
+
 $color__dark: $black;
+$color__darken: darken($black, 1%);
+$color__lighten: lighten($black, 5%);
+
 $color__dark-alt: $lightBlack;
 $color__primary: $yellow;
 $color__accent: $red;

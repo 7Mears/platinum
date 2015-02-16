@@ -20,15 +20,15 @@
   }
 }
 
-.contact-info {
+.header-contact--info {
   background: $color__dark-alt;
   float: right;
   padding: 25px;
   position: absolute;
   right: 0;
   top: 0;
-  border-radius: 0 0 $radius $radius;
   z-index: 2;
+  border-radius: 0 0 $radius $radius;
   box-shadow: 0 3px 10px rgba(0,0,0,0.5);
 
   p {
