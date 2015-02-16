@@ -799,6 +799,9 @@ embed, iframe, object {
   @media screen and (max-width: 1200px) {
     .home-hero .gallery-cell {
       height: auto; } }
+  @media screen and (max-width: 800px) {
+    .home-hero .gallery-cell {
+      margin-top: 25px; } }
 
 .home-services {
   padding: 50px 0 100px 0;

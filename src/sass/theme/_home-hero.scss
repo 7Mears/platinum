@@ -10,5 +10,9 @@
     @media screen and (max-width: $L) {
       height: auto;
     }
+
+    @media screen and (max-width: $M) {
+      margin-top: 25px;
+    }
   }
 }
