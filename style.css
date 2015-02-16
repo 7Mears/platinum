@@ -746,6 +746,12 @@ embed, iframe, object {
   .main-navigation li {
     padding: 10px;
     margin-top: 20px; }
+  @media screen and (max-width: 800px) {
+    .main-navigation {
+      display: table;
+      margin: 0 auto; }
+      .main-navigation ul {
+        margin: 0; } }
 
 .site-branding {
   float: left;
@@ -754,6 +760,11 @@ embed, iframe, object {
     font-size: 42px; }
   .site-branding h3 {
     margin-top: -39px; }
+  @media screen and (max-width: 800px) {
+    .site-branding {
+      width: 100%;
+      text-align: center;
+      margin: 0; } }
 
 .header-contact--info {
   background: #607D8B;
@@ -777,7 +788,8 @@ embed, iframe, object {
   @media screen and (max-width: 800px) {
     .header-contact--info {
       width: 100%;
-      position: relative; } }
+      position: relative;
+      text-align: center; } }
 
 .home-hero .gallery-cell {
   width: 100%;
@@ -863,6 +875,7 @@ embed, iframe, object {
 .about-gallery-cell {
   min-width: 100%;
   /* full width */
+  min-height: 300px;
   height: auto;
   /* height of gallery */ }
 

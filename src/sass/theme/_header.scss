@@ -5,6 +5,15 @@
     padding: 10px;
     margin-top: 20px;
   }
+
+  @media screen and (max-width: $M) {
+    display: table;
+    margin: 0 auto;
+
+    ul {
+      margin: 0;
+    }
+  }
 }
 
 .site-branding {
@@ -17,6 +26,12 @@
 
   h3 {
     margin-top: -39px;
+  }
+
+  @media screen and (max-width: $M) {
+    width: 100%;
+    text-align: center;
+    margin: 0;
   }
 }
 
@@ -49,5 +64,6 @@
   @media screen and (max-width: $M) {
     width: 100%;
     position: relative;
+    text-align: center;
   }
 }
