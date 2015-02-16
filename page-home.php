@@ -28,25 +28,25 @@ get_header(); ?>
       <div class="card">
         <img src="/platinum/wp-content/themes/platinum/src/img/paint.png" alt="Painting and refinishing">
         <h2>Painting and refinishing</h2>
-        <p>Our Standox-trained, Mercedes Certified Painters use computerized colour matching.</p>
+        <p>Our technicians use top quality tools to ensure a great finish.</p>
       </div>
 
       <div class="card">
         <img src="/platinum/wp-content/themes/platinum/src/img/vehicle.png" alt="Collision and dent repair">
         <h2>Collision and dent repair</h2>
-        <p>We have experts in frame straightening, and panel repair and replacement.</p>
+        <p>From fixing frames to dents, we can make damage disappear.</p>
       </div>
 
       <div class="card">
         <img src="/platinum/wp-content/themes/platinum/src/img/tools.png" alt="Mechanical">
         <h2>Mechanical</h2>
-        <p>Platinum Paint and Body has five dedicated mechanical technicians with access to seven hoists.</p>
+        <p>Platinum's technicans can do any repairs your vehicle needs.</p>
       </div>
 
       <div class="card">
         <img src="/platinum/wp-content/themes/platinum/src/img/carwash.png" alt="Glass installation">
         <h2>Glass installation</h2>
-        <p>Whether fixing up a stone bruise while you wait, or replacing a windshield or side glass.</p>
+        <p>Our dedicated glass replacement specialists do the job right.</p>
       </div>
 
       <a class="button" href="#0">See a full list of our services</a>
