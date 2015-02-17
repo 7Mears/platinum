@@ -883,9 +883,7 @@ embed, iframe, object {
 .about-gallery-cell {
   min-width: 100%;
   /* full width */
-  min-height: 300px;
-  height: auto;
-  /* height of gallery */ }
+  min-height: 350px; }
 
 .about-content {
   float: left;
