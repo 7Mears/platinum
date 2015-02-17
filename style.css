@@ -911,3 +911,6 @@ embed, iframe, object {
 .platinum-page--title {
   background: rgba(255, 255, 255, 0.1);
   padding: 25px; }
+  @media screen and (max-width: 800px) {
+    .platinum-page--title {
+      text-align: center; } }
