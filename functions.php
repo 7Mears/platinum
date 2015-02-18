@@ -77,21 +77,21 @@ add_action( 'after_setup_theme', 'platinum_setup' );
  * @link http://codex.wordpress.org/Function_Reference/register_sidebar
  */
 function platinum_widgets_init() {
-	//Sidebar
-	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'platinum' ),
-		'id'            => 'sidebar-1',
-		'description'   => '',
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
-	) );
-
 	//Home Hero
 	register_sidebar( array(
 		'name'          => __( 'Home Hero', 'platinum' ),
 		'id'            => 'home-hero',
+		'description'   => 'This is the image slideshow on the homepage.  Every image needs to be inside a div.gallery-cell.',
+		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	//Home Services
+	register_sidebar( array(
+		'name'          => __( 'Home Services', 'platinum' ),
+		'id'            => 'home-services',
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
@@ -99,12 +99,23 @@ function platinum_widgets_init() {
 		'after_title'   => '</h1>',
 	) );
 
-	//Home Content
+	//Home Accident
 	register_sidebar( array(
-		'name'          => __( 'Home Content', 'platinum' ),
-		'id'            => 'home-content',
+		'name'          => __( 'Home Accident', 'platinum' ),
+		'id'            => 'home-accident',
 		'description'   => '',
-		'before_widget' => '<div id="%1$s" class="widget %2$s">',
+		'before_widget' => '<div class="home-accident--content">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h1 class="widget-title">',
+		'after_title'   => '</h1>',
+	) );
+
+	//Home About
+	register_sidebar( array(
+		'name'          => __( 'Home About', 'platinum' ),
+		'id'            => 'home-about',
+		'description'   => '',
+		'before_widget' => '<div class="home-about--content">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h1 class="widget-title">',
 		'after_title'   => '</h1>',
