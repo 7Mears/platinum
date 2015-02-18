@@ -52,3 +52,20 @@ input[type="submit"]:active {
 	color: $color__light;
 	border-color: $color__light;
 }
+
+
+.home-contact {
+	button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"] {
+		background: rgba(0,0,0,0);
+	}
+
+	button:hover,
+	input[type="button"]:hover,
+	input[type="reset"]:hover,
+	input[type="submit"]:hover {
+		background: $color__dark-alt;
+	}
+}

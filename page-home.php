@@ -13,8 +13,7 @@ get_header(); ?>
   <section class="home-hero">
 
     <div id="hero-gallery" class="gallery js-flickity" >
-      <div class="gallery-cell"><img src="/platinum/wp-content/themes/platinum/src/img/hero1.jpg"></div>
-      <div class="gallery-cell"><img src="/platinum/wp-content/themes/platinum/src/img/hero2.jpg"></div>
+      <div class="gallery-cell"><img src="/platinum/wp-content/themes/platinum/src/img/ppb.jpg"></div>
     </div>
 
   </section><!-- /home-hero -->
@@ -28,7 +27,7 @@ get_header(); ?>
       <div class="card">
         <img src="/platinum/wp-content/themes/platinum/src/img/paint.png" alt="Painting and refinishing">
         <h2>Painting and refinishing</h2>
-        <p>Our technicians use top quality tools to ensure a great finish.</p>
+        <p>Our technicians use top quality paints to ensure a great finish.</p>
       </div>
 
       <div class="card">
@@ -53,13 +52,25 @@ get_header(); ?>
     </div><!-- /wrapper -->
   </section><!-- /home-services -->
 
+  <section class="home-accident">
+    <div class="wrapper">
+      <div class="home-accident--content">
+        <h1>Three easy steps to make an auto claim<div class="bar">&nbsp;</div></h1>
+        <ul>
+          <li>Contact SGI through <a href="http://www.sgi.sk.ca/online_services/eclaim/index.html">Auto eClaim </a> OR call Dial-a-Claim at <a href="tel:306-683-2100">306-683-2100</a>.</li>
+          <li>If your vehicle is undriveable, make arrangements with SGI to have it taken to Platinum Paint and Body after your inspection appointment.</li>
+          <li>Contact Platinum with the claim number. Call us at <a href="tel:306-249-5670">306-249-5670</a>, or send us an <a href="#0">email.</a></li>
+        </ul>
+        <h3>That's all you have to do. We will communicate with SGI, and we will contact you to set up an appointment.</h3>
+      </div>
+    </div><!-- /wrapper -->
+  </section><!-- /home-accident -->
+
   <section class="home-about">
     <div class="wrapper">
       <div class="home-about--content">
         <h1>Serving Saskatoon and area since 1996<div class="bar">&nbsp;</div></h1>
-        <p>Owned by Alan and Cindy Manderschied since 1996, Platinum Paint and Body is proud to be a
-
-straight-time shop -- all of our staff are paid for they hours they work, no matter what.</p>
+        <p>Owned by Alan and Cindy Manderschied since 1996, Platinum Paint and Body is proud to be a straight-time shop -- all of our staff are paid for they hours they work, no matter what.</p>
         <a class="button" href="#0">Find out more about us</a>
       </div>
     </div><!-- /wrapper -->

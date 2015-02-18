@@ -1,0 +1,20 @@
+.home-accident {
+  background: rgba(255,255,255,0.1);
+  padding: 75px 0 100px 0;
+  text-align: center;
+}
+
+.home-accident--content {
+  width: 900px;
+  margin: 0 auto;
+
+  ul {
+    text-align: left;
+    list-style-type: decimal;
+  }
+
+  @media screen and (max-width: $M) {
+    width: 95%;
+    margin: 0 2.5%;
+  }
+}
