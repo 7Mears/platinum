@@ -6,6 +6,7 @@ $teal: #00E5FF;
 $blue: #01579B;
 $yellow: #FFD600;
 $red: #BF360C;
+$orange: #FF6D00;
 
 $color__light: $white;
 $color__light-alt: $off-white;
@@ -16,4 +17,4 @@ $color__lighten: lighten($black, 5%);
 
 $color__dark-alt: $lightBlack;
 $color__primary: $yellow;
-$color__accent: $red;
+$color__accent: darken($white, 20%);
