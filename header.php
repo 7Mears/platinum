@@ -28,7 +28,7 @@
 		<?php if(is_front_page() ) { ?>
 		<div class="header-contact--info">
 			<p><i class="fa fa-phone"></i> <a href="tel:306-249-5670">(306) 249-5670</a></p>
-			<p><i class="fa fa-map-marker"></i> <a href="https://goo.gl/maps/H7riw">125 105 Street East</a></p>
+			<p><i class="fa fa-map-marker"></i> <a href="https://goo.gl/maps/H7riw">125 105th Street East</a></p>
 			<p><i class="fa fa-globe"></i> Saskatoon, SK</p>
 		</div><!-- .contact-info -->
 		<?php } ?>

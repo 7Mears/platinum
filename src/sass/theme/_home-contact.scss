@@ -1,11 +1,16 @@
 .home-contact {
   background: rgba(255,255,255,0.1);
   padding: 75px 0 100px 0;
-
   overflow:hidden;
+
   h1 {
     text-align: center;
   }
+
+  h3 {
+    margin: 5px 0;
+  }
+
   textarea {
     height: 200px;
   }
@@ -19,6 +24,14 @@
   width: 48%;
   float: left;
   margin: 1%;
+
+  p:first-child {
+    margin-top: 2em;
+  }
+
+  .wpcf7-form-control-wrap {
+    width: 100%;
+  }
 
   @media screen and (max-width: $M) {
     width: 95%;
