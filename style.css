@@ -329,7 +329,7 @@ button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type=
   border-color: #ECEFF1; }
 
 .home-contact button, .home-contact input[type="button"], .home-contact input[type="reset"], .home-contact input[type="submit"] {
-  background: rgba(0, 0, 0, 0); }
+  background: transparent; }
 .home-contact button:hover, .home-contact input[type="button"]:hover, .home-contact input[type="reset"]:hover, .home-contact input[type="submit"]:hover {
   background: #607D8B; }
 
@@ -354,7 +354,7 @@ textarea {
   width: 100%; }
 
 .home-contact input[type="text"], .home-contact input[type="email"], .home-contact input[type="url"], .home-contact input[type="password"], .home-contact input[type="search"], .home-contact textarea {
-  background: rgba(0, 0, 0, 0); }
+  background: transparent; }
 .home-contact input[type="text"]:focus, .home-contact input[type="email"]:focus, .home-contact input[type="url"]:focus, .home-contact input[type="password"]:focus, .home-contact input[type="search"]:focus, .home-contact textarea:focus {
   background: rgba(255, 255, 255, 0.1); }
 
@@ -777,14 +777,13 @@ embed, iframe, object {
       margin: 0; } }
 
 .header-contact--info {
-  background: #607D8B;
+  background: #1A2227;
   float: right;
   padding: 25px;
   position: absolute;
   right: 0;
   top: 0;
   z-index: 2;
-  border-radius: 0 0 3px 3px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5); }
   .header-contact--info p {
     margin: 0; }
@@ -801,25 +800,28 @@ embed, iframe, object {
       position: relative;
       text-align: center; } }
 
-.home-hero .gallery-cell {
-  width: 100%;
-  height: 600px; }
-  .home-hero .gallery-cell img {
-    min-width: 100%; }
-  @media screen and (max-width: 1200px) {
-    .home-hero .gallery-cell {
-      height: auto; } }
+.home-hero {
+  background: url('http://platinumpaintandbody.ca/wp-content/uploads/2015/05/building-hero.jpg') no-repeat top center;
+  background-size: cover;
+  padding: 200px 0; }
+  @media screen and (min-width: 1450px) {
+    .home-hero {
+      padding: 300px 0; } }
   @media screen and (max-width: 800px) {
-    .home-hero .gallery-cell {
-      margin-top: 25px; } }
+    .home-hero {
+      padding: 100px 0; } }
 
 .home-services {
-  padding: 50px 0 100px 0;
+  padding: 0px 0 100px 0;
   text-align: center; }
-  .home-services h1 {
+  .home-services h2 {
+    font-size: 35.2px;
+    font-size: 2.2rem;
     padding-top: 50px;
     margin: 0; }
-  .home-services h2 {
+  .home-services h3 {
+    font-size: 22.4px;
+    font-size: 1.4rem;
     margin-top: 0; }
   .home-services p {
     margin: 0;
@@ -843,9 +845,13 @@ embed, iframe, object {
     padding: 25px; }
 
 .home-accident {
-  background: rgba(255, 255, 255, 0.1);
+  background: #1A2227;
   padding: 75px 0 100px 0;
   text-align: center; }
+  .home-accident h2 {
+    font-size: 35.2px;
+    font-size: 2.2rem;
+    margin: 0; }
 
 .home-accident--content {
   width: 910px;
@@ -864,6 +870,10 @@ embed, iframe, object {
 .home-about {
   padding: 75px 0 100px 0;
   text-align: center; }
+  .home-about h2 {
+    font-size: 35.2px;
+    font-size: 2.2rem;
+    margin: 0; }
   .home-about p {
     padding-bottom: 20px; }
 
@@ -876,10 +886,13 @@ embed, iframe, object {
       margin: 0 2.5%; } }
 
 .home-contact {
-  background: rgba(255, 255, 255, 0.1);
+  background: #1A2227;
   padding: 75px 0 100px 0;
   overflow: hidden; }
-  .home-contact h1 {
+  .home-contact h2 {
+    font-size: 35.2px;
+    font-size: 2.2rem;
+    margin: 0;
     text-align: center; }
   .home-contact h3 {
     margin: 5px 0; }
@@ -905,6 +918,14 @@ embed, iframe, object {
 .site-footer {
   padding-top: 50px;
   text-align: center; }
+  .site-footer p {
+    margin: 0;
+    padding: 0; }
+
+.vireo {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12.8px;
+  font-size: 0.8rem; }
 
 .services-card {
   width: 50%;
@@ -949,7 +970,7 @@ embed, iframe, object {
   margin-top: 1em; }
 
 .platinum-page--title {
-  background: rgba(255, 255, 255, 0.1);
+  background: #1A2227;
   padding: 25px; }
   @media screen and (max-width: 800px) {
     .platinum-page--title {

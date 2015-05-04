@@ -95,8 +95,8 @@ function platinum_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 
 	//Home Accident
@@ -106,8 +106,8 @@ function platinum_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<div class="home-accident--content">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 
 	//Home About
@@ -117,8 +117,8 @@ function platinum_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<div class="home-about--content">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 
 	//Home Contact
@@ -128,8 +128,8 @@ function platinum_widgets_init() {
 		'description'   => '',
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
 	) );
 
 	//Footer

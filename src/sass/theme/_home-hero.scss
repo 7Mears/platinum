@@ -1,18 +1,13 @@
 .home-hero {
-  .gallery-cell {
-    width: 100%;
-    height: 600px;
+  background: url('http://platinumpaintandbody.ca/wp-content/uploads/2015/05/building-hero.jpg') no-repeat top center;
+  background-size: cover;
+  padding: 200px 0;
 
-    img {
-      min-width: 100%;
-    }
+  @media screen and (min-width: 1450px) {
+    padding: 300px 0;
+  }
 
-    @media screen and (max-width: $L) {
-      height: auto;
-    }
-
-    @media screen and (max-width: $M) {
-      margin-top: 25px;
-    }
+  @media screen and (max-width: $M) {
+    padding: 100px 0;
   }
 }

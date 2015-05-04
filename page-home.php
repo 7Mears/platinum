@@ -10,11 +10,7 @@ get_header(); ?>
 
 <main id="main" class="site-main" role="main">
 
-<?php if ( is_active_sidebar( 'home-hero' ) ) : ?>
-  <section class="home-hero">
-    <?php dynamic_sidebar( 'home-hero' ); ?>
-  </section><!-- /home-hero -->
-<?php endif; ?>
+  <div class="home-hero"></div><!-- /hero image-->
 
 <?php if ( is_active_sidebar( 'home-services' ) ) : ?>
   <section class="home-services">
